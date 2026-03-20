@@ -26,7 +26,7 @@ class Height {
 }
 class Money {
 	static validUnits = [
-		"TCN"
+		"TCN", "TC"
 	]
 	constructor(x) {
 		if (Money.validUnits.includes(x.replace(/(\s)+/g, " ").split(" ")[1])) {
@@ -70,6 +70,10 @@ class PyAlt {
 		femboy: true,
 		fatherless: true,
 		real: false,
+	}
+	static amount = {
+		lives: 0,
+		haters: 8_300_000_000,
 	}
 	constructor() {
 		for (let i of Object.keys(PyAlt)) {
