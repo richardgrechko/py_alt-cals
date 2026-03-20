@@ -71,10 +71,7 @@ class PyAlt {
 		fatherless: true,
 		real: false,
 	}
-	static amount = {
-		lives: 0,
-		haters: 1/0,
-	}
+	static lives = 0
 	constructor() {
 		for (let i of Object.keys(PyAlt)) {
 			this[i] = PyAlt[i]
