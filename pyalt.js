@@ -67,6 +67,7 @@ class PyAlt {
 	static likes = ["ScrapFan1"]
 	static is = {
 		furry: true,
+		femboy: true,
 		fatherless: true,
 		real: false,
 	}
