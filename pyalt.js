@@ -73,7 +73,7 @@ class PyAlt {
 	}
 	static amount = {
 		lives: 0,
-		haters: 8_300_000_000,
+		haters: 1/0,
 	}
 	constructor() {
 		for (let i of Object.keys(PyAlt)) {
